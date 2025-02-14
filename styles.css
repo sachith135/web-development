@@ -1,0 +1,50 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+header ul li {
+  margin: 0 1rem;
+}
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+main {
+  padding: 2rem;
+}
+section {
+  margin-bottom: 2rem;
+}
+.project {
+  background: #f4f4f4;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  header ul {
+    flex-direction: column;
+  }
+}
